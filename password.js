@@ -1,16 +1,19 @@
-var password = "sudhalovescoding2022"
-var letter = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-let i = 0
+var password = "sudhalovestocode2022"
+//var letter = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+//let i = 0
 
-if (password.length < 10) {
-    console.log("Your password change is succesful")
-}
+//if (password.length > 10 && /\d/.test(password) && password.includes(letter[i]) ) {
+   // console.log("Your password change was successful")
+//}
+if (password.length > 10 && /\d/.test(password) && /^[A-Za-z]/)  {
+    console.log("Your password change was successful")
+ }
 
-
-else if (/\d/.test("sudhalovescoding2022")) {
+/*else if (/\d/.test("sudhalovescoding2022")) {
     console.log("Your password change was successful")
 }
 
 else if (password.includes(letter[i])) {
     console.log("Your password chage was successful")
-}
+}*/
+else {console.log("Your password change was not successful, try again")}
