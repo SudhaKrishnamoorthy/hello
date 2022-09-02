@@ -1,4 +1,4 @@
-var password = "SUDHALOVESTOCODE20 22"
+var password = "SUDHALOVESTOCODE2022"
 //Basic tests
 //if (password.length > 10 && /\d/.test(password) && password.includes(letter[i]) ) {
    // console.log("Your password change was successful")
@@ -9,4 +9,5 @@ if (password.length > 10 && /\d/.test(password) && /[A-Za-z]/ && (password.toUpp
  }
 
 
-else {console.log("Your password change was not successful, try again")}
+else {console.log("Your password change was not successful, try again ")
+}
